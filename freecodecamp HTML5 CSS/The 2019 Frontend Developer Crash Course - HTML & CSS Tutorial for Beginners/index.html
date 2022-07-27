@@ -1,0 +1,101 @@
+<!-- From YouTube video The 2019 Frontend Developer Crash Course - HTML & CSS Tutorial for Beginners -->
+<!-- I typed the whole thing and added some notes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Frontend Course</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="images/logo.svg" alt="23andfour logo" class="logo">
+
+			<nav>
+				<a href="services.html" class="show-desktop">
+					<img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+				</a>
+				<ul class="show-desktop hide-mobile" id="nav"> <!--Show if desktop, hide if mobile-->
+					<li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+					<li><a href="#">home</a></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section>
+			<img src="images/server.svg" alt="server pic" class="server">
+
+			<h1>Web Hosting for the Modern Era</h1>
+			<p class="subhead">Go serverless and pay only for what you see.</p>
+
+			<img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+		</section>
+	</div>
+
+	<div class="blue-container">
+		<div class="container">
+			<ul>
+				<li><img src="images/icon-1.svg" alt="calendar icon"></li>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+				<li><img src="images/icon-2.svg" alt="wallet icon"></li>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+				<li><img src="images/icon-3.svg" alt="phone icon"></li>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</ul>
+		</div>
+	</div>
+
+	<div class="gray-container">
+		<div class="container">
+			<ul>
+				<li>
+					<figure>
+						<img src="images/user1.png" alt="user1 testimonial">
+						<blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</blockquote>
+						<figcaption> - Person 1</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<figure>
+						<img src="images/user2.png" alt="user2 testimonial">
+						<blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</blockquote>
+						<figcaption> - Person 2</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<h2>Start your free trial now!</h2>
+		<a href="#" class="cta">Get Started</a>
+	</div>
+
+
+	<footer>
+		<div class="footer-container">
+			<div class="container">
+				<a href="#">
+					<img src="images/logo-white.svg" class="logo" alt="logo">
+				</a>
+					<p class="address"> Iligan City, 9200<br>PHI</p>
+
+					<ul class="footer-links">
+						<li><a href="#">Terms of Service</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

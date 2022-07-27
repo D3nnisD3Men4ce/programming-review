@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+}
+
+/* div {
+    display: inline-block;
+} */
+
+.navigator {
+    width: 30em;
+    height: 30em;
+    position: fixed;
+}
+
+div ul li{
+    list-style-type: none;
+    left: 0;
+    top: 0;
+}
+ .click li{
+     cursor: pointer;
+ }
+
