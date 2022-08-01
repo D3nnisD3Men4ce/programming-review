@@ -1,0 +1,1 @@
+ce${randonNumber1}.png`);
