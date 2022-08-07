@@ -14,11 +14,12 @@ include 'includes/autoLoader.inc.php';
 
 <body>
     <?php
-    $testObj = new Test();
-    // echo $testObj->getData();
-    // echo $testObj->setUsersStmt(143, "Jazhel", "jazhel@keren.com", "password");
-    echo $testObj->setUsersStmt(144, "Jazhel2", "jazhel2@keren.com", "password");
-    echo $testObj->getUsersStmt("Jazhel", "jazhel@keren.com");
+
+    $userObj2 = new UsersController();
+    $userObj2->createUser(147, "Jazhel5", "jazhel5@keren.com", "password");
+
+    $userObj = new UsersView();
+    $userObj->showUser("Jazhel5");
 
     ?>
 </body>

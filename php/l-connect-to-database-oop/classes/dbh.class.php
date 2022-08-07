@@ -4,7 +4,7 @@ class Dbh
 {
     private $host = "localhost";
     private $user = "root";
-    private $pwd = "jkpb5299";
+    private $pwd = "";
     private $dbName = "project_sparta_practice";
 
     protected function connect()
